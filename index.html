@@ -38,11 +38,23 @@
           <h1 class="img-title name-title">Назва команди: Project-006</h1>
         </div>
         <div class="logo-cont">
-          <img
+          <!-- <img
+            src="./img/logo-006.png"
+            weight="350"
+            height="350"
+            alt="Logo Project-006"
+          /> -->
+          <!-- <img
             src="./img/pro-logo.png"
             weight="350"
             height="350"
             alt="Logo Project-006"
+          /> -->
+          <img
+            class="logo-project-img"
+            width="350px"
+            src="./img/logo-icon.png"
+            alt="Logo Progect-006"
           />
         </div>
       </div>
@@ -55,8 +67,8 @@
               <img
                 class="members-img"
                 src="./img/ON.JPG"
-                width="100"
-                height="100"
+                width="120"
+                height="120"
                 alt="Ovchinnikov Nikita"
               />
               <h2 class="members-name">Ovchinnikov Nikita</h2>
@@ -68,8 +80,8 @@
               <img
                 class="members-img"
                 src="./img/LK.jpg"
-                width="100"
-                height="100"
+                width="120"
+                height="120"
                 alt="Kristina Levchenko"
               />
               <h2 class="members-name">Kristina Levchenko</h2>
@@ -81,8 +93,8 @@
               <img
                 class="members-img"
                 src="./img/CA.jpg"
-                width="100"
-                height="100"
+                width="120"
+                height="120"
                 alt="Cherpakova Anastasiia"
               />
               <h2 class="members-name">Cherpakova Anastasiia</h2>
@@ -94,8 +106,8 @@
               <img
                 class="members-img"
                 src="./img/SA.jpg"
-                width="100"
-                height="100"
+                width="120"
+                height="120"
                 alt="Savastyuk Andrey"
               />
               <h2 class="members-name">Savastyuk Andrey</h2>
@@ -107,11 +119,11 @@
               <img
                 class="members-img"
                 src="./img/ON.JPG"
-                width="100"
-                height="100"
+                width="120"
+                height="120"
                 alt="Muxa Sasha"
               />
-              <h2 class="members-name">Muxa Sasha</h2>
+              <h2 class="members-name">Muxa<br />Sasha</h2>
               <p class="members-text">
                 Секція BESTSELLERS<br />Секція OUR PRODUCTS
               </p>
@@ -121,9 +133,9 @@
             <div>
               <img
                 class="members-img"
-                src="./img/ON.JPG"
-                width="100"
-                height="100"
+                src="./img/MA.jpg"
+                width="120"
+                height="120"
                 alt="Melnichuk Artem"
               />
               <h2 class="members-name">Melnichuk Artem</h2>
@@ -184,26 +196,51 @@
       </div>
       <!--FOURTH SLIDE-->
       <div class="slider-img fourth">
-        <ul class="probl-list">
-          <li>
-            <div>
-              <img src="" alt="" />
-              <p></p>
-            </div>
-          </li>
-          <li>
-            <div>
-              <img src="" alt="" />
-              <p></p>
-            </div>
-          </li>
-          <li>
-            <div>
-              <img src="" alt="" />
-              <p></p>
-            </div>
-          </li>
-        </ul>
+        <div class="fourth-slide-container">
+          <ul class="probl-list">
+            <li class="list">
+              <div>
+                <img
+                  class="fourth-slide-img"
+                  width="250px"
+                  src="./img/infrastructure.png"
+                  alt="structure"
+                />
+                <p class="noprobl">
+                  Доступ до широкого каталогу нових і актуальних дизайнерських
+                  рішень
+                </p>
+              </div>
+            </li>
+            <li class="list">
+              <div>
+                <img
+                  class="fourth-slide-img"
+                  width="250px"
+                  src="./img/it-systems.png"
+                  alt="system"
+                />
+                <p class="noprobl">
+                  Зручна навігація і інтуїтивно зрозумілий функціонал
+                </p>
+              </div>
+            </li>
+            <li class="list">
+              <div>
+                <img
+                  class="fourth-slide-img"
+                  width="200px"
+                  src="./img/computer.png"
+                  alt="computer"
+                />
+                <p class="noprobl">
+                  Розробляється з урахуванням того, щоб його можна було відкрити
+                  з будь-якого браузера, ОС.
+                </p>
+              </div>
+            </li>
+          </ul>
+        </div>
       </div>
       <!--FIFTH SLIDE-->
       <div class="slider-img fifth">
@@ -214,12 +251,15 @@
           src="../img/cercle.png"
           alt="Technologies"
         /> -->
-        <h2 class="img-title">Технології, які ми використовували</h2>
+        <h2 class="img-title tech-main-title">
+          Технології, які ми використовували
+        </h2>
         <ul class="tech-list">
           <li class="tech-li">
             <div class="tech-container">
               <h3 class="tech-title">Front-end</h3>
               <img
+                class="tech-img"
                 src="./img/front-end.png"
                 width="150"
                 height="150"
@@ -236,6 +276,7 @@
             <div class="tech-container">
               <h3 class="tech-title">Back-end</h3>
               <img
+                class="tech-img"
                 src="./img/back-end.png"
                 width="150"
                 height="150"
@@ -250,6 +291,7 @@
             <div class="tech-container">
               <h3 class="tech-title">Utilites</h3>
               <img
+                class="tech-img"
                 src="./img/utilites.png"
                 width="150"
                 height="150"
@@ -268,9 +310,18 @@
         </ul>
       </div>
       <!--SIXTH SLIDE-->
-      <div class="slider-img">
-        <img class="img-last" width="400" height="400" src="" alt="Thank you" />
-        <h2 class="img-title">Дякуємо за увагу!</h2>
+      <div class="slider-img sixth">
+        <div class="sixth-container">
+          <h2 class="img-title sixth-title">Дякуємо за увагу!</h2>
+          <img
+            class="img-sixth"
+            width="200"
+            height="200"
+            src="./img/internet.png"
+            alt="Thank you"
+          />
+          <p class="intri">далі буде...</p>
+        </div>
       </div>
     </div>
     <script
