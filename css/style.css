@@ -139,6 +139,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    max-width: 360px;
 }
 
 .users-img {
@@ -152,6 +153,7 @@
 .third-item {
     padding-bottom: 12px;
     font-size: 19px;
+    width: 360px;
 }
 
 .client {
@@ -190,6 +192,15 @@
     width: 350px;
     font-size: 24px;
     font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.01em;
+}
+.access {
+    padding-top: 30px;
+}
+
+.utilites {
+    padding-top: 30px;
 }
 
 /*-----FIFTH SLIDE-----*/
@@ -207,7 +218,7 @@
     display: flex;
     /* align-items: center; */
     /* flex-direction: row; */
-    gap: 150px;
+    gap: 160px;
     padding-left: 200px;
     padding-right: 200px;
     justify-content: center;
@@ -237,10 +248,17 @@
     color: azure;
 }
 
+.utilites-container {
+    display: block;
+    flex-direction: row;
+    gap: 20px;
+}
+
 /*-----SIXTH SLIDE-----*/
 
 .sixth-container {
     padding: 80px;
+    /* width: 100%; */
 }
 
 .sixth-title {
