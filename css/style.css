@@ -101,6 +101,13 @@
     padding: 0 50px;
 }
 
+.members-container {
+    /* display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; */
+}
+
 .members-img {
     border-radius: 30%;
     border: 1px solid grey;
@@ -111,17 +118,31 @@
 .members-name {
     max-width: 160px;
     color: azure;
+    align-items: start;
+    /* justify-content: start; */
 }
 
 .members-text {
+    display: flex;
     color: azure;
+    align-items: start;
 }
 
 /*-----THIRD SLIDE-----*/
 .third-container {
-    padding: 80px 220px;
+    padding: 80px 240px;
     display: flex;
     gap: 120px;
+}
+
+.users-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.users-img {
+    border: 1px solid azure;
 }
 
 .third-list {
@@ -130,11 +151,13 @@
 
 .third-item {
     padding-bottom: 12px;
+    font-size: 19px;
 }
 
 .client {
     text-align: center;
     margin-bottom: 20px;
+    font-size: 30px;
 }
 
 /*-----FOURTH SLIDE-----*/
@@ -147,10 +170,18 @@
     display: flex;
     align-items: center;
     gap: 30px;
+    margin-left: 0 auto;
+    margin-right: 0 auto;
 }
 
 .fourth-slide-img {
     align-items: center;
+}
+
+.comp-img {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 15px;
 }
 
 .noprobl {
@@ -158,6 +189,7 @@
     align-items: center;
     width: 350px;
     font-size: 24px;
+    font-weight: 400;
 }
 
 /*-----FIFTH SLIDE-----*/
@@ -194,10 +226,11 @@
 .tech-title {
     color: azure;
     font-size: 30px;
+    margin-bottom: 15px;
 }
 
 .tech-img {
-    margin-bottom: 15px;
+    margin-bottom: 25px;
 }
 
 .tech-text-item {
