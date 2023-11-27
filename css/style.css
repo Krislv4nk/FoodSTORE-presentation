@@ -3,7 +3,7 @@
     padding: 50px 50px;
     margin-left: auto;
     margin-right: auto;
-    background: url(../img/glitter.jpg);
+    background: url(../img/diagonal_random_dot_halftone_pattern_background.jpg);
 
 }
 
@@ -23,7 +23,19 @@
 .logo-cont {
     padding-right: 100px;
 }
-
+.start {
+    color: #bac430;
+    
+}
+.code-masters {
+    text-align: center;
+    font-family: Roboto;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.5;
+    color: #bac430;
+}
 .img-title {
     color: #fff;
     text-align: center;
@@ -118,10 +130,7 @@
     display: flex;
    gap: 40px;
 }
-.team-img-wraper {
-    display: flex;
-    
-}
+
 .team-img {
     margin-left: 20px;
 }
