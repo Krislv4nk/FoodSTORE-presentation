@@ -300,3 +300,9 @@ width: 250px;
 .presentation-links {
     font-size: 12px;
 }
+.links-presentation {
+    color: #fff;
+    font-size: 12px;
+    cursor: pointer;
+    text-decoration: none;
+}
